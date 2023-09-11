@@ -1,0 +1,16 @@
+{
+    "name": "vincent/zeroauth",
+    "description": "A zero knowledge auth plugin for Wordpress",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Vincent\\Zeroauth\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vincent"
+        }
+    ],
+    "require": {}
+}

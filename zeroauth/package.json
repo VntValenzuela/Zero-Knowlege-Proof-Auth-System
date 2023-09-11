@@ -1,0 +1,30 @@
+{
+  "name": "zeroauth",
+  "version": "1.0.0",
+  "description": "A zero knowledge auth plugin for Wordpress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@wordpress/scripts": "^26.3.0",
+    "big-integer": "^1.6.51",
+    "crypto-js": "^4.1.1",
+    "jsbn": "^1.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "dependencies": {
+    "path-browserify": "^1.0.1"
+  }
+}
